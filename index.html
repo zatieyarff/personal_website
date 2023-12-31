@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PERSONAL WEBSITE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:#2F4F4F;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: ghostwhite;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+<a class="active" href="index.example.html">HOME</a>
+   <a href="BIODATA.HTML">MY BIODATA</a>
+   <a href="EXPERIENCE.HTML">EXPERIENCE</a>
+    <a href="EDUCATION.HTML">EDUCATION</a>
+    <a href="FAMILY.HTML">FAMILY</a>
+    <a href="GALLERY.HTML">GALLERY</a>
+    <a href="CONTACT.HTML">CONTACT</a>
+</div>
+
+<div class="content" style="background-color:lightgrey;">
+  <h2 style="color:#808080"> Story Of My Life... </h2>
+  <div>
+
+    <p style="width:50%;float:right; font-family: monospace;font-size: 35px;"> It does not matter how slowly you go as long as you do not stop.Let's know more about me. This Treasure about my life </p>
+
+
+    <h2>♫ FRIENDS</h2> 
+      <center><audio controls autoplay> 
+  <source src="lagu.html/FRIENDS.mp3" type="audio/mpeg"> 
+   </audio></center>
+
+    <img src="image.html/myself.jpg" alt="myself" style="width:40%;float: left;height: 530px;"><br>
+    </div>
+
+</div>
+   
+
+</body>
+</html>
